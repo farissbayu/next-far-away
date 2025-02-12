@@ -22,3 +22,7 @@ npm run dev
 - TailwindCSS v3.4
 - Prisma
 - SQLite
+
+## Screenshot
+
+![Far away ui](./docs/faraway.png)

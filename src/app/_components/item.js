@@ -10,7 +10,7 @@ export const Item = ({ id, name, amount, isChecked }) => {
         defaultChecked={isChecked}
         onChange={() => toggleItemAction(id, isChecked)}
       />
-      <p>
+      <p className={isChecked ? "line-through text-gray-500" : ""}>
         {amount} {name}
       </p>
       <button
